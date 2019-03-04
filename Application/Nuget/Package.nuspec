@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>xmldesigner</id>
+    <version>5.0</version>
+    <authors>iswix-llc</authors>
+    <owners>iswix-llc</owners>
+    <projectUrl>https://github.com/iswix-llc/xmldesigner</projectUrl>
+    <license type="expression">MS-PL</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>XML designer for use with Fireworks framework.</description>
+    <releaseNotes>See GitHub</releaseNotes>
+    <copyright>Copyright 2010-2019 ISWIX, LLC</copyright>
+    <tags>wpf c# plugins xml designers</tags>
+    <dependencies>
+      <dependency id="AvalonEdit" version="5.0.4"/>
+      <dependency id="fireworks" version="5.1.10"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="lib\**" target="lib" />
+  </files>
+</package>
